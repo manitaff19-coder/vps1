@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   secure-vps:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04.6
     timeout-minutes: 360
     steps:
       - name: Install & Configure SSH
